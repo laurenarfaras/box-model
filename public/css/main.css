@@ -8,38 +8,42 @@ body {
 }
 
 .box-sm {
-  height: 100px;
-  width: 200px;
+  height: 180px;
+  width: 42%;
+  position: fixed;
+  top: 255px;
+  left: 350px;
 }
 
 .box-md {
-  height: 200px;
-  width: 400px;
+  height: 250px;
+  width: 50%;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 125px;
 }
 
 .box-lg{
-  height: 300px;
-  width: 90%;
+  height: 450px;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 150px;
 }
 
 .border{
-  border: 5px solid black;
+  border: 10px solid black;
+  border-radius: 5px;
 }
 
 #yellow {
   background-color: yellow;
-  margin-left: 5%;
+  position: fixed;
 }
 
 #red {
   background-color: red;
-  margin: auto;
-  margin-top: 30px;
-  padding-top: 3%;
 }
 
 #blue{
-  background-color: blue;
-  margin: auto;
-
+  background-color: aqua;
 }
